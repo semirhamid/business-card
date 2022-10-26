@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    background-color:#23252C ;
+    font-family: Inter;
+    display: flex;
+    justify-content: center;
+    padding-top:2%;
+
+}
+#root{
+    width: 317px;
+    color: white;
+    background-color: #1A1B21;
+    border-radius: 20px;
+    
+
+}
+
+
+/* Header */
+header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.picture{
+    width: 100%;
+}
+.picture img{
+    width: 317px;
+    object-fit: cover;
+    height: 317px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+header h1{
+    margin-bottom: 0;
+    font-size: 25px;
+
+}
+
+header p{
+    font-size: 12.8px;
+    color: #F3BF99 ;
+    margin-top: 10px;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-size: 10.5px;
+
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.buttons button{
+    font-size: 14px;
+    font-weight: medium;
+    padding: 10px 25px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.linkedbutton{
+    background-color: white;
+    color: #5093E2;
+    padding: 1px;
+    border-radius: px;
+
+}
+.linkedinbuttoncolor{
+    background-color: #5093E2;
+}
+
+/* about */
+.About{
+    margin: 36px;
+    font-size: 10.24px;
+    line-height: 16px;
+}
+
+.About h2{
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+/* footer */
+.footer{
+    background-color: #161619;
+    height: 64px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.fa-brands{
+    font-size: 20px;
+    margin: 10px;
+    box-sizing: border-box;
+    padding: 5px;
+    background-color: #918E9B ;
+    border-radius: 5px;
+    color: #161619;
+
+}
+
